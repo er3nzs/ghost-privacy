@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ghost — Privacy Policy</title>
+  <style>
+    :root { color-scheme: dark; }
+    body {
+      margin: 0;
+      font-family: Segoe UI, system-ui, sans-serif;
+      background: #0f1117;
+      color: #e8eaf0;
+      line-height: 1.6;
+    }
+    main {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 20px 80px;
+    }
+    h1 { font-size: 1.8rem; margin: 0 0 8px; }
+    h2 { font-size: 1.15rem; margin: 32px 0 8px; }
+    p, li { color: #c9ceda; }
+    .muted { color: #8b93a7; font-size: 0.95rem; }
+    a { color: #8ab4ff; }
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Ghost Privacy Policy</h1>
+    <p class="muted">Last updated: 28 September 2026</p>
+    <p>
+      This policy describes how the Discord application <strong>Ghost</strong>
+      (“the Bot”, “we”) handles data when it is added to a Discord server.
+      Ghost is a server management bot used for member welcome messages,
+      verification, and role assignment.
+    </p>
+
+    <h2>1. Data we collect</h2>
+    <p>Ghost only processes data required for those features:</p>
+    <ul>
+      <li>Discord user ID</li>
+      <li>Discord server (guild) ID</li>
+      <li>Member roles and join/leave timestamps</li>
+      <li>Server configuration set by the server owner or administrators (welcome channel, roles to assign or remove)</li>
+    </ul>
+    <p>
+      Ghost does <strong>not</strong> collect message content, email addresses,
+      phone numbers, IP addresses, passwords, tokens, payment data, or user
+      presence/status (online, idle, do not disturb).
+    </p>
+
+    <h2>2. Why we collect it</h2>
+    <p>Data is used only to:</p>
+    <ul>
+      <li>Detect when a member joins or leaves a server</li>
+      <li>Send a welcome or leave message in the configured channel</li>
+      <li>Assign or remove roles as configured by server staff</li>
+      <li>Look up a member by ID when a server administrator uses the management panel</li>
+    </ul>
+    <p>
+      Ghost uses the Guild Members privileged intent for join/leave events and
+      member lookups. It does not use Message Content or Presence intents.
+    </p>
+
+    <h2>3. Storage and retention</h2>
+    <ul>
+      <li>Member IDs and role state are kept only while the Bot remains in that server and the related feature is enabled.</li>
+      <li>Data is stored on the Bot operator’s private server and is not a public database.</li>
+      <li>If the Bot is removed from a server, or the server owner asks for deletion, that server’s data is deleted within 24 hours.</li>
+      <li>Message text is not stored because message content is not read.</li>
+    </ul>
+
+    <h2>4. Sharing</h2>
+    <p>
+      Ghost does not sell, rent, or share user data with third parties.
+      Data is not transferred to other Discord servers or used for advertising.
+      Data may be disclosed only if required by law.
+    </p>
+
+    <h2>5. Access and deletion</h2>
+    <p>
+      A server owner or administrator can request deletion of that server’s
+      data by contacting the Bot operator. Users may also ask Discord to
+      exercise their platform privacy rights through Discord’s own tools.
+    </p>
+
+    <h2>6. Security</h2>
+    <p>
+      Access to the Bot’s hosting and configuration is limited to the operator.
+      API credentials are stored privately and are not logged. Data is not
+      published in public channels or files.
+    </p>
+
+    <h2>7. Children</h2>
+    <p>
+      Ghost is intended for Discord servers and does not knowingly collect
+      personal data from children independent of Discord’s own platform rules.
+    </p>
+
+    <h2>8. Changes</h2>
+    <p>
+      If this policy changes, the date at the top of this page will be updated.
+    </p>
+
+    <h2>9. Contact</h2>
+    <p>
+      For privacy questions or deletion requests, contact the Ghost bot
+      operator through the support server or the email listed on the Bot’s
+      Discord application page.
+    </p>
+  </main>
+</body>
+</html>
